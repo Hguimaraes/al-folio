@@ -46,10 +46,11 @@ a, table.table a {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     p {
       display: inline-block;
       margin: 0;
+      text-align: right;
     }
   }
 }
@@ -168,9 +169,11 @@ a, table.table a {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: right;
+  letter-spacing: 0.15rem;
+  margin-bottom: 2.0rem;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 1.25rem;
     a {
       color: var(--global-icon-color);
       &:hover {
